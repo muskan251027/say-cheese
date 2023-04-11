@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- jquery linked -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <!-- css linked -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- js linked -->
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/0e604444e3.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SayCheese</title>
+</head>
+<body>
+
+    <div class="mainBoard">
+        <div class="mainGameContainer" id="mainBoard">
+
+            <!-- Chances meter -->
+            <div class="chanceMeter">
+                <div class="ratContainer">
+                    <div class="rat">
+                        <div class="face">
+                            <div class="half1"></div>
+                            <div class="half2"></div>
+                        </div>
+                        <div class="ear1"></div>
+                        <div class="ear2"></div>
+                        <div class="body"></div>
+                        <div class="eye1">
+                            <div class="eye2"></div>
+                        </div>
+                        <div class="smile"></div>
+                        <div class="tail"></div>
+                    </div>
+                </div>
+                <div class="heart" id="heart3"><i class="fa-solid fa-heart"></i></div>
+                <div class="heart" id="heart2"><i class="fa-solid fa-heart"></i></div>
+                <div class="heart" id="heart1"><i class="fa-solid fa-heart"></i></div>
+                <div class="alertbox" id="alertLife"><span>Oops!! Lost one life</span></div>
+            </div>
+
+            <!-- Rat container -->
+            <div class="ratContainer" id="ratPlayer">
+                <div class="rat">
+                    <div class="face">
+                        <div class="half1"></div>
+                        <div class="half2"></div>
+                    </div>
+                    <div class="ear1"></div>
+                    <div class="ear2"></div>
+                    <div class="body"></div>
+                    <div class="eye1">
+                        <div class="eye2"></div>
+                    </div>
+                    <div class="smile"></div>
+                    <div class="tail"></div>
+                </div>
+            </div>
+
+            <!-- Cheese container -->
+            <div class="cheeseContainer" id="grabcheese">
+                <div class="cheese">
+                    <div class="base"></div>
+                    <div class="hole1 hole"></div>
+                    <div class="hole2 hole"></div>
+                    <div class="hole3 hole"></div>
+                    <div class="hole4 hole"></div>
+                </div>
+            </div>
+
+            <!-- Cat container -->
+            <div class="catContainer" id="obstacle-cat">
+                <div class="cat">
+                    <div class="ear">
+                        <div class="ear2"></div>
+                    </div>
+                    <div class="eye" id="catEye"></div>
+                    <div class="mouth"></div>
+                    <div class="nose"></div>
+                    <div class="tail"></div>
+                    <div class="body" id="catBody"></div>
+                    <div class="bubble" id="catBubble"></div>
+                </div>
+            </div>
+
+            <!-- Bells as obstacles -->
+            <div class="bellContainer" id="obstacle-1">
+                <div class="container">
+                    <div class="bell">
+                        <div class="topPart"></div>
+                        <div class="bottomPart"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="decoration">
+                        <div class="leftPart"></div>
+                        <div class="rightPart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bellContainer" id="obstacle-2">
+                <div class="container">
+                    <div class="bell">
+                        <div class="topPart"></div>
+                        <div class="bottomPart"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="decoration">
+                        <div class="leftPart"></div>
+                        <div class="rightPart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bellContainer" id="obstacle-3">
+                <div class="container">
+                    <div class="bell">
+                        <div class="topPart"></div>
+                        <div class="bottomPart"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="decoration">
+                        <div class="leftPart"></div>
+                        <div class="rightPart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bellContainer" id="obstacle-4">
+                <div class="container">
+                    <div class="bell">
+                        <div class="topPart"></div>
+                        <div class="bottomPart"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="decoration">
+                        <div class="leftPart"></div>
+                        <div class="rightPart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bellContainer" id="obstacle-5">
+                <div class="container">
+                    <div class="bell">
+                        <div class="topPart"></div>
+                        <div class="bottomPart"></div>
+                        <div class="ball"></div>
+                    </div>
+                    <div class="decoration">
+                        <div class="leftPart"></div>
+                        <div class="rightPart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result board -->
+        <div class="mainGameContainer" id="resultBoard">
+            <span id="win">CONGRATULATIONS!! YOU WIN <br><span style="font-size: 50px;"> Refresh to restart!</span></span>
+            <span id="loose">OOPS!! YOU LOOSE <br><span style="font-size: 50px;"> Refresh to restart!</span></span>
+        </div>
+    </div>
+
+</body>
+</html>
