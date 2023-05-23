@@ -1,5 +1,6 @@
 # Say Cheese
 A game made in HTML, CSS and JS to make the rat escape all obstacles in its way to reach cheese.
+URL - https://say-cheese-game.netlify.app/
 
 ## INSTALLATION
 - Clone the repository into your local folder.
